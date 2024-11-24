@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tit
+{
+ text-align: center;
+ font-family:arial;
+   color:	#BC7ED8;
+
+}
+
+.duvidas
+{
+  	color:	#BC7ED8;
+}
+
+.titulo
+{
+	text-align: center;
+    color:#FFFFFF;
+}
+
+.titu
+{
+	text-align: center;
+    color:#7A7A7A;
+}
+
+
+.titulo011{
+	
+	width: auto;
+	font-size: 28px;
+	font-family:  Ubuntu, sans-serif;
+	color:#383838;
+	
+}
+
+.Sub{
+	height: -20px;
+	width: auto;
+	font-size: 13px;
+	color:#515151;
+	
+}
+.COLOR
+{
+	color: #7F8E80
+		color:#759677;
+}
+.precoProduto
+{
+	height: 70px;
+	width: 300px;
+	font-size: 30px;
+	font-family: "Sofia", sans-serif;
+	color:#272727;
+	
+}
+
+.tamanho{
+	height: 80px;
+	width: auto;
+}
+.tamanho02{
+	height: 40px;
+	width: 40px;
+	border: solid 1px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.tamanhoCor{
+	height: 40px;
+	width: 40px;
+	border: solid 1px;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #BC7ED8;
+}
+
+
+.status-padding{
+	padding: 5px 0px 0px 0px;
+}
+
+.button01{
+	background-color: black;
+	color: white;
+	height: 50px;
+	width: 100%;
+	border: solid 2px black;
+}
+
+.button02{
+	background-color:#FFFFFF;
+	color:#464646;
+	height: 40px;
+	width: 100%;
+	border: solid 2px #585858;
+}
+.est
+{
+	
+	width: 500px;
+	background-color: #BC7ED8;
+	margin: 20px;
+}
+
+.est1
+{
+	width: 200px;
+	background-color:#FFDDAC;
+	margin: 10px;
+}
+
+.cor
+{
+	background-color:#C5C5C5; 
+}
+
+
+.form
+{
+	height: 40px;
+	background-color:#C5C5C5;
+}
+
+.form1
+{
+	height: 89px;
+	background-color:#FFFFFF;
+	margin: auto;
+}
+
+.form2
+{
+	height: 5px;
+	background-color:#C5C5C5;
+	margin: auto;
+}
+
+
+
+.form4
+{
+	height: 10px;
+	background-color:#C5C5C5;
+	margin: auto;
+}
+
+.form5
+{
+	
+	background-color:#D4D4D4;
+	
+}
+
+.form6
+{
+	height: 20px;
+	background-color:#C5C5C5;
+
+}
+
+.IMG
+{
+	width: 70px;
+}
+
+.icon
+{
+    width: 40px;
+}
+
+.img1
+{
+	width: 1355px;
+
+}
+
+.rodape
+{
+	background-color: #B7B7B7;
+	margin-left: 10px;
+}
+
+.rodape02
+{
+	background-color:   #F8F9FA;
+}
+
+.mouse{
+    color: #676767;
+    text-align: center;
+}
+.mouse:hover{
+    color: #BC7ED8;
+}
+
+.status-produto2{
+	background-color:#EDEDED;
+	height: 35px;
+	width: auto;
+	color: white;
+	text-align: center;
+}
+.status-padding2{
+	padding: 5px 0px 0px 0px;
+}
+
+
+

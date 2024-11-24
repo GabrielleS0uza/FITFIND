@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.imagem{
+	width: 110%;
+	height: 400px;
+	object-fit: cover;
+	/*object-fit: cover;*/
+	/*-webkit-mask:url(https://i.ibb.co/mBrmH0k/Mf15d.png) center/contain no-repeat;*/
+}
+.preco{
+	font-weight: 30;
+	font-size: 18px;
+	color: #BC7ED8;
+}
+.botao{
+	background-color:#E7E7E7;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 35px;
+	width: 110%;
+	line-height: 30px;
+	color: #BC7ED8;
+}

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tit
+{
+ text-align: center;
+ font-family:arial;
+ color:	#BC7ED8;
+
+}
+
+.titulo
+{
+	text-align: center;
+    color:#FFFFFF;
+}
+
+.tituloo
+{
+	
+    color:#632C92;
+}
+.titu
+{
+	text-align: center;
+    color:#7A7A7A;
+}
+.cor1
+{
+	background-color:#E8D1FF;
+}
+
+.est
+{
+	
+	width: 500px;
+	background-color: #BC7ED8;
+	margin: 20px;
+}
+
+.est1
+{
+	width: 200px;
+	background-color:#FFDDAC;
+	margin: 10px;
+}
+
+.cor
+{
+	background-color:#C5C5C5; 
+}
+
+.color
+{
+	background-color:#EBEBEB;
+}
+
+.color1
+{
+	background-color: #E2CAFF
+}
+
+.form
+{
+	height: 40px;
+	background-color:#C5C5C5;
+	margin: auto;
+}
+
+.form1
+{
+	height: 89px;
+	background-color:#FFFFFF;
+	margin: auto;
+}
+
+.form2
+{
+	height: 5px;
+	background-color:#C5C5C5;
+	margin: auto;
+}
+
+
+
+.form4
+{
+	height: 10px;
+	background-color:#C5C5C5;
+	margin: auto;
+}
+
+.formm
+{ 
+	width: 10px;
+
+	background-color: #C5C5C5;
+	
+}
+
+.IMG
+{
+	width: 70px;
+}
+
+.icon
+{
+    width: 40px;
+}
+
+.img1
+{
+	width: 1355px;
+
+}
+
+

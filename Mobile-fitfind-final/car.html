@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- head -->
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.">
+    <meta name="author" content="David Deutsch">
+
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Yeah i know js should not be in header. Its required for demos.-->
+
+    <!-- javascript -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+  </head>
+  <body>
+
+	  
+	  
+
+   
+    <script>
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 5,
+        loop: true,
+        responsive: {
+          0: {
+            items: 2
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+
+    <!-- features -->
+    
+
+    <!-- vendors -->
+
+  </body>
+</html>

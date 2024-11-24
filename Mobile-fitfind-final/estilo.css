@@ -1,0 +1,227 @@
+/* CSS Document */
+
+:root {
+	--bs-font-sans-serif: Open Sans;
+	--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+	--bs-body-font-family: var(--bs-font-sans-serif);
+	--bs-body-font-size: 1rem;
+	--bs-body-font-weight: 400;
+	--bs-body-line-height: 1.5;
+	--bs-body-color: #67748e;
+	--bs-body-bg: #fff;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card-body{
+	padding: 1.5rem;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #344767;
+  letter-spacing: -0.05rem;
+}
+
+h3,
+.h3 {
+  font-size: calc(1.3125rem + 0.75vw);
+  font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+
+  h3,
+  .h3 {
+    font-size: 1.875rem;
+  }
+}
+
+.topo{
+	height: 120px;
+}
+
+.imagem{
+	width: 100%;
+	object-fit: cover;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.header{
+	height: 120px;
+	background-color: burlywood;
+}
+
+.produto{
+	height: 400px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.preco{
+	
+	font-size: 16px;
+	color:#000000;
+}
+
+.imagem11{
+	width: 200%;
+	height: 210px;
+	object-fit: cover;
+	/*object-fit: cover;*/
+	/*-webkit-mask:url(https://i.ibb.co/mBrmH0k/Mf15d.png) center/contain no-repeat;*/
+	
+}
+
+.nome01
+{
+	color: #212121
+}
+
+.status{
+	font-size: 20px;
+}
+
+.botao{
+	background-color:#E7E7E7;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 35px;
+	width: 110%;
+	line-height: 30px;
+	color: #BC7ED8;
+}
+
+.butao{
+	width: 90%;
+	text-align: center;
+}
+
+.bgimg{
+	clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%);
+	/*border-radius: 10px;*/
+	background-image: url("https://images.pexels.com/photos/2693200/pexels-photo-2693200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.oblique {
+  overflow: hidden;
+  width: 60%;
+  border-bottom-left-radius: 0.75rem;
+}
+
+.gradient{
+	background-image: linear-gradient(310deg, #640092, #BC7ED8 );
+}
+
+.text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.controleform {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d2d6da;
+  appearance: none;
+  border-radius: 0.5rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.label{
+	display: inline-block;
+	font-size: 0.75rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	color: #344767;
+	margin-left: 0.25rem;
+}
+
+.me-n8{
+	margin-right: -8.8rem !important;
+}
+
+.mouse{
+    color: #676767;
+    text-align: center;
+}
+.mouse:hover{
+    color: #BC7ED8;
+}
+
+
